@@ -1,5 +1,5 @@
 {
-  "name": "base64DecodeStream",
+  "name": "base64-decode-stream",
   "description": "Correctly decode a base64 streamed content into string",
   "version": "0.0.1",
   "author": "Rong Shen <rong.shen@gmail.com>",

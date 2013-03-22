@@ -14,7 +14,7 @@ npm install
 ```coffee
 request = require 'request'
 
-decoder = (require 'base64DecodeStream').Base64StreamToString
+decoder = (require 'base64-decode-stream').Base64StreamToString
 decoderStream = new decoder 'utf8'
 
 # need VPN if you live in China mainland.
