@@ -1,0 +1,25 @@
+{
+  "name": "base64DecodeStream",
+  "description": "Correctly decode a base64 streamed content into string",
+  "version": "0.0.1",
+  "author": "Rong Shen <rong.shen@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jacobbubu/base64DecodeStream.git"
+  },
+  "main": "./lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "request": "2.x.x"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "scripts" : { 
+    "test" : "coffee ./test/test.coffee",
+    "install": "cake build"
+  }
+}
+
+        
